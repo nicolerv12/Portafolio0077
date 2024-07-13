@@ -3,13 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario de cliente</title>
+    <title>formulario alta de cliente</title>
 </head>
 <body>
-    <header style="background-color: aqua;">
-<h1>Empresa roberto capi green</h1>
-<img src="img/2913113_bottle_chemistry_elixir_fantasy_game_icon.png" alt="" style=width:100px></width:100px>
+    <header style="background: #4F5902;">
+<h1 style="color: #f3edea; font-size: 28px;">Empresa roberto capi green</h1>
+<img src="img/2998123_ecology_green_leaf_plant_spring_icon.png" alt="" style="width: 100px;">
+
 </header>
-    
+<nav style="background: #C0D904;">
+<ul>
+    <li><a href="">inicio</a></li>
+    <li><a href="">menu 1</a></li>
+    <li><a href="">menu 2</a></li>
+    <li><a href="">menu 3</a></li>
+</ul>
+</nav>
+<section style="background: #CCD96A;">
+    <h2>formulario alta</h2>
+<form action="confirmacion.html" method="get">
+    <h3>datos personales</h3>
+    <fieldset>
+
+        <label for="">nombre completo</label>
+        <input type="text">
+        <label for="">fecha de nacimiento</label>
+        <input type="date">
+
+    </fieldset>
+    <h3>Direccion</h3>
+    <fieldset>
+
+        <label for="">calle</label>
+        <input type="text">
+        <label for="">numero</label>
+        <input type="number">
+        <label for="region">region de chile</label>
+        <select name="region" id="region" required>
+            <option value="seleccione una region">seleccione una region</option>
+            <option value="arica y parinacota">arica y parinacota</option>
+            <option value="atacama">atacama</option>
+            <option value="tarapaca">tarapaca</option>
+            <option value="coquimbo">coquimbo</option>
+
+
+
+        </select>
+    </fieldset>
+
+
+</form>
+
+</section>
+<footer style="background:#A9BF04;">
+roberto capi green design by ecamp
+
+</footer>    
 </body>
 </html>
