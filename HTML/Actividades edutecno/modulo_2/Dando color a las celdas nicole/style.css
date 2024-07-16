@@ -1,0 +1,28 @@
+
+table{
+    width: 400px;
+    margin: auto;
+}
+
+td{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.rojo{background-color: red;
+}
+.blanco{ background-color: white;}
+.verde { background-color: green;}
+.gris{background-color: gray;}
+.cafe {background-color: brown;}
+.azul {background-color: blue;}
+.violeta{background-color: violet;}
+.naranjo{background-color: orange;}
+.rosado{background-color: pink;}
+.purpura{background-color: purple;}
+.amarillo{background-color: yellow;}
+.turquesa{background-color: turquoise;}
+.negro{background-color: black; color: white;}

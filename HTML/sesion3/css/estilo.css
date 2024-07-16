@@ -1,0 +1,46 @@
+
+body{
+    background: #A0ACF2;
+}
+
+.arsenal-sc-regular{
+font-family: "arsenal SC", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.arsenal-sc-bold {
+font-family: "Arsenal SC", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.arsenal-sc-regular-italic {
+font-family: "Arsenal SC", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.arsenal-sc-bold-italic {
+font-family: "Arsenal SC", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.fuente_subtitulo{
+    color: #C8C2F2;
+    font-size: 16;
+}
+
+#contenedor{
+    background-image:url(../img/luciernaga.jpg)
+}
+
+.fuente_titulo{
+    color: #F28705;
+}
+
+#contenedor h3{
+    color: #F2B1A2;
+}
+
