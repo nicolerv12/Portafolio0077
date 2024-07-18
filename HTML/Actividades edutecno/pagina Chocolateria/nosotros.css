@@ -1,0 +1,31 @@
+
+div{
+    background-color: beige;
+     
+}
+
+.h1{
+    
+    color: rgb(65, 64, 64);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <900>;
+    font-style: normal;
+    
+    
+}
+
+.contenido{
+    color: rgb(65, 64, 64);
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30PX;
+    margin-left: 90px;
+    margin-right: 90px;
+
+     
+
+}
+
+
