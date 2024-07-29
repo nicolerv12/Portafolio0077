@@ -82,14 +82,14 @@ function actualizarSaldo(nuevoSaldo) {
     const clienteIndex = clientes.findIndex(cliente => cliente.identificador === userId);
     clientes[clienteIndex].saldo = nuevoSaldo;
 
-    // Mostrar mensaje de éxito y actualizar el menú con el nuevo saldo
+    
     document.getElementById('transaccionMessage').innerHTML = `<p>Transacción realizada correctamente. Su nuevo saldo es: $${nuevoSaldo}</p>`;
-    mostrarMenu(clientes[clienteIndex]); // Mostrar el menú actualizado
+    mostrarMenu(clientes[clienteIndex]); 
 }
 
 // Función para salir del menú
 function salir() {
-    document.getElementById('message').innerHTML = ''; // Limpiar el contenido del mensaje
+    document.getElementById('message').innerHTML = ''; 
 }
 
 

@@ -1,0 +1,23 @@
+nav {background-color: #5aa886;}
+
+body {
+    padding-top: 15px; /* Espacio para la barra de navegación fija */
+}
+
+header {
+    background: #C1F7DC;
+    padding: 60px 0;
+}
+
+section {
+    padding: 60px 0;
+    
+}
+
+#contact {
+    background-color: #C1F7DC;
+}
+
+footer {
+    background-color:#5aa886;
+}
